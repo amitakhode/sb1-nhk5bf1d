@@ -1,0 +1,72 @@
+export const FEATURED_TOYS = [
+  {
+    id: '1',
+    name: 'STEM Building Blocks Set',
+    description: 'Educational building blocks for creative learning',
+    imageUrl: 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&q=80&w=800',
+    ageRange: { min: 3, max: 12 },
+    category: ['Educational & STEM toys', 'Building & Construction sets'],
+    pricePerDay: 299,
+    available: true,
+    educationalBenefits: ['Problem-solving', 'Spatial awareness', 'Creativity'],
+    safetyInfo: 'Made with non-toxic materials, suitable for ages 3+',
+    averageRating: 4.8,
+    rentCount: 156
+  },
+  {
+    id: '2',
+    name: 'Interactive Science Kit',
+    description: 'Hands-on experiments for young scientists',
+    imageUrl: 'https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?auto=format&fit=crop&q=80&w=800',
+    ageRange: { min: 8, max: 15 },
+    category: ['Educational & STEM toys'],
+    pricePerDay: 259,
+    available: true,
+    educationalBenefits: ['Scientific thinking', 'Experimentation', 'Observation'],
+    safetyInfo: 'Adult supervision required for experiments',
+    averageRating: 4.6,
+    rentCount: 142
+  },
+  {
+    id: '3',
+    name: 'Art Studio Set',
+    description: 'Complete art supplies for creative expression',
+    imageUrl: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80&w=800',
+    ageRange: { min: 4, max: 16 },
+    category: ['Arts & Creativity'],
+    pricePerDay: 149,
+    available: true,
+    educationalBenefits: ['Creative expression', 'Fine motor skills', 'Color theory'],
+    safetyInfo: 'Non-toxic art supplies',
+    averageRating: 4.7,
+    rentCount: 128
+  },
+  {
+    id: '4',
+    name: 'Robot Programming Kit',
+    description: 'Learn coding with interactive robots',
+    imageUrl: 'https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&q=80&w=800',
+    ageRange: { min: 10, max: 17 },
+    category: ['Educational & STEM toys', 'Video Games & Electronics'],
+    pricePerDay: 699,
+    available: false,
+    educationalBenefits: ['Programming basics', 'Logic', 'Problem-solving'],
+    safetyInfo: 'Includes small parts, 10+ recommended',
+    averageRating: 4.9,
+    rentCount: 98
+  },
+  {
+    id: '5',
+    name: 'Outdoor Sports Set',
+    description: 'Complete sports equipment for active play',
+    imageUrl: 'https://images.unsplash.com/photo-1531565637446-32307b194362?auto=format&fit=crop&q=80&w=800',
+    ageRange: { min: 6, max: 17 },
+    category: ['Sports & Outdoor'],
+    pricePerDay: 299,
+    available: true,
+    educationalBenefits: ['Physical activity', 'Team building', 'Coordination'],
+    safetyInfo: 'Protective gear included',
+    averageRating: 4.5,
+    rentCount: 87
+  }
+];
